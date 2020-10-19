@@ -49,10 +49,10 @@ a:active{
     margin: auto;
 }
 .main-block{
-    float: left;
-    width: 33.3%;
+    /*float: right;*/
+    width: 51%;
     padding: 15px;
-    /*box-sizing: border-box;*/ /*Dropper denne sånn at neste tekst ikke */
+    box-sizing: border-box; /*Dropper denne sånn at neste tekst ikke */
 }
 .image2{
     padding: 10px;
@@ -76,4 +76,11 @@ img{
     border-radius: 40px;
     padding: 10px;
     width: 80%; /*Størrelsen på bildet. Hadde 250px som passa veldig fint, men den er ikke adaptable*/
+}
+
+/*Bånn*/
+#down-header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightskyblue;
 }
