@@ -48,11 +48,14 @@ a:active{
     width: 80%;
     margin: auto;
 }
+.main-blockP{
+
+}
 .main-block{
-    /*float: right;*/
-    width: 51%;
+    float: right;
+    width: 70%;
     padding: 15px;
-    box-sizing: border-box; /*Dropper denne sånn at neste tekst ikke */
+    /*box-sizing: border-box;*/ /*Dropper denne sånn at neste tekst ikke */
 }
 .image2{
     padding: 10px;
@@ -60,7 +63,7 @@ a:active{
     width: 80%;
 }
 .main-block1{
-    padding-right: 20px;
+
 }
 
 
@@ -78,9 +81,11 @@ img{
     width: 80%; /*Størrelsen på bildet. Hadde 250px som passa veldig fint, men den er ikke adaptable*/
 }
 
-/*Bånn*/
-#down-header{
+
+/*Bånn / Vit mer*/
+#main-footer{
+    float: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: lightskyblue;
+    background-color: grey;
 }
