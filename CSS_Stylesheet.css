@@ -84,8 +84,9 @@ img{
 
 /*Bånn / Vit mer*/
 #main-footer{
-    float: left;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: grey;
+    margin-top: 40px;
 }
