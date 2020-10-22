@@ -52,14 +52,15 @@ a:active{
 }
 .main-block{
     float: right;
-    width: 70%;
+    width: 40%;
     padding: 15px;
     /*box-sizing: border-box;*/ /*Dropper denne sånn at neste tekst ikke */
 }
 .image2{
     padding: 10px;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
+    float: right;
 }
 .main-block1{
 }
@@ -83,14 +84,17 @@ img{
 
 /*Bånn / Vit mer*/
 .space{
-    padding: 500px;
+    padding: 375px;
     width: 100%;
 }
 .footer{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: tomato;
+    background-color: white;
     margin-top: 40px;
     width: 100%;
+}
+.footer ul{
+    list-style: none; /*Fjerner den lille dotten til lista(know more)*/
 }
