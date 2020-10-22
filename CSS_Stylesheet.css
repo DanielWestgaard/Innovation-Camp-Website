@@ -49,7 +49,6 @@ a:active{
     margin: auto;
 }
 .main-blockP{
-
 }
 .main-block{
     float: right;
@@ -63,7 +62,6 @@ a:active{
     width: 80%;
 }
 .main-block1{
-
 }
 
 
@@ -73,6 +71,7 @@ a:active{
     width: 33.3%;
     padding: 10px;
     box-sizing: border-box; /*Uten denne ville en av boksene blitt "utenfor"*/
+    background-color: white;
 } /*Dette vil ikke kunne sees i Safari*/
 img{
     border: 1px solid black;
@@ -83,10 +82,15 @@ img{
 
 
 /*Bånn / Vit mer*/
-#main-footer{
+.space{
+    padding: 500px;
+    width: 100%;
+}
+.footer{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: lightskyblue;
+    background-color: tomato;
     margin-top: 40px;
+    width: 100%;
 }
